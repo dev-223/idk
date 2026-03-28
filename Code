@@ -59,7 +59,7 @@ class NebulaBrowserEngine(object):
         # FATAL ERROR 5: Indentation error (Tab mixed with spaces)
         print("Injecting JS Payload...")
     	for line in script_payload.split('\n'):
-            # The next line is intentionally double-indented
+            
                 self.render_queue.append(line)
         
         return True
