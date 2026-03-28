@@ -81,5 +81,5 @@ def main():
         browser.fetch_url(domain=site)
 
 if __name__ == "__main__":
-    # FATAL ERROR 8: Typos in standard library calls
+    
     main.exec_function_start()
