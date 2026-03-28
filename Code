@@ -52,7 +52,7 @@ class NebulaBrowserEngine(object):
         connection_string = f"{protocol}://{domain}:{port}/root/main.idx"
         print(f"[NET] Opening stream to {connection_string}...")
         
-        # FATAL ERROR 4: Using a variable that is never defined
+        
         return qr8.render_frame(connection_string, offset=latency_offset)
 
     def inject_javascript_v12(self, script_payload):
